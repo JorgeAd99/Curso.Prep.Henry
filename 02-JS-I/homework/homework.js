@@ -13,10 +13,10 @@ const nuevoBool = true;
 const nuevaResta = 10 - 5 === 5;
 
 // Resuelve el siguiente problema matemático:
-const nuevaMultiplicacion = 10 * 4 === 40 ;
+const nuevaMultiplicacion = 10 * 4 === 40;
 
 // Resuelve el siguiente problema matemático:
-const nuevoModulo = 21 % 5 === 4;
+const nuevoModulo = 21 % 5 === 7;
 
 
 // En los próximos 22 problemas, deberás completar la función.
@@ -28,25 +28,27 @@ const nuevoModulo = 21 % 5 === 4;
 function devolverString(str) {
   // "Return" la string provista: str
   // Tu código: 
-  return str = 'george'
+  return str ;
   
 
   
 }
 
-function suma(x, y) {
+function suma(x,y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
-  2+1
-
+  return x + y; 
   
 }
+
+
+
 
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
-  2-3
+  return y - x;
 
   
 }
@@ -54,14 +56,14 @@ function resta(x, y) {
 function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
-  3*3
+  return x * y;
   
 }
 
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
-  3/4
+  return x / y;
   
 }
 
@@ -69,13 +71,14 @@ function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
-  3=3
+  return x = y;
 }
 
 function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
-  // Tu código:
+  // Tu código: 
+  'hola' = 'pepe'
   
 }
 
